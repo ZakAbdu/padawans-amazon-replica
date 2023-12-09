@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+}
+
+.amazon-logo {
+    text-align: center;
+}
+
+.amazon-logo img {
+    width: 220px;
+}
+
+.login-box {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 20px;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-bottom: 15px; */
+}
+
+.sign-in-button {
+    background-color: goldenrod;
+    color: black;
+    padding: 10px;
+    width: 300px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.privacy-notice {
+    color: #000;
+    /* margin-top: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.blue-link {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.blue-link:hover {
+    text-decoration: underline;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: left;
+}
+
+.create {
+    color: black;
+    padding: 10px;
+    width: 300px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
